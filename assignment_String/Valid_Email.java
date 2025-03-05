@@ -22,7 +22,7 @@ public class Valid_Email {
 		if (index_dot == -1 || index_dot == s.length() - 1 || index_dot==0) {
             return false;
         }
-        int index_dot2 = s.substring(index_at+index_dot+2).indexOf(".");
+        int index_dot2 = s.substring(index_at+index_dot+2).indexOf("..");
         //System.out.println(index_at+" "+index_dot+" "+index_dot2);
         if(index_dot2!=-1)
         {
