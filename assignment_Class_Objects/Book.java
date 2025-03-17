@@ -37,7 +37,7 @@ class Book_Details{
 	  public double getPrice(){
 	    return price;
 	  }
-	  public int getTotalBooks(){
+	  public int getTotalBooks(){ 
 	    return book_id;
 	  }
 	  public String toString()
